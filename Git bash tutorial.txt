@@ -1,0 +1,32 @@
+File upload tutorial into GitHub Repo using Git Bash! ✨
+
+
+1.  📁 Right-click inside your project folder on your PC & select "Git Bash Here".
+
+2.  BeginInit! Fire up your local repo: `git init` 🔥 
+
+3.  🔗 Connect to your GitHub universe: `git remote add origin https://github.com/your-username/your-repository-name.git`
+
+4.  📦 Stage your files for upload (like magic!): `git add your-file.txt` (Repeat for each file!)
+
+5.  📜 Commit with a cool message: `git commit -m "✨ Add new feature"` or `git commit -m "🐛 Fix that pesky bug"` 
+
+6.  🔐 Gear Up! Head to [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) & create a Personal Access Token 
+    with the `repo` scope. No expiry is cool! 
+
+7.  📋 Copy that token! It's your SUPER-SECRET password now! 🔐
+ 
+8.  🚀 Push your code to GitHub: `git push -u origin main` (or `master` if needed!)
+
+9.  👤 Enter your GitHub Username.
+
+10. 🔑 For Password, PASTE your Token! (That's the secret sauce!) 
+
+11. 🎉 BOOM! You did it! Your files are now live on GitHub! 🌍✨ 
+
+
+
+Now for time savings. For next files upload we can use single Line command:
+format : git add "file name" && git commit -m "comment" && git push
+
+Exameple: $ git add hello2.txt && git commit -m "Add the new hello2.txt file" && git push
